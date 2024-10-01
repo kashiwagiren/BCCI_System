@@ -196,4 +196,8 @@ Public Class Form1
 
         Return 112.5 + (Int((monthlySalary - 9000) / 1000) * 12.5) ' Calculate contribution for other salaries
     End Function
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        Application.Exit()
+    End Sub
 End Class

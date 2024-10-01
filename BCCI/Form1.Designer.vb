@@ -157,6 +157,7 @@ Partial Class Form1
         ' PictureBox1
         ' 
         PictureBox1.BackColor = Color.Transparent
+        PictureBox1.Cursor = Cursors.Hand
         PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
         PictureBox1.Location = New Point(24, 321)
         PictureBox1.Name = "PictureBox1"
